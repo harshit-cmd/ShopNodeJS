@@ -15,7 +15,7 @@ const authRoutes = require('./routes/auth')
 const User = require('./models/user');
 const isAuth = require('./middleware/is-auth');
 
-const MONGODB_URI = 'mongodb+srv://new-user_31:vcUdijvEYz38Dccv@mycluster.vqp8ya1.mongodb.net/shop?retryWrites=true&w=majority';
+const MONGODB_URI = 'Enter your own mongodbURI';
 
 const app = express();
 const store = new MongoDBStore({
